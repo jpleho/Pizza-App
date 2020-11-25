@@ -1,0 +1,15 @@
+.navigation {
+  display: flex;
+  padding: 18px;
+  margin-bottom: 18px;
+
+  &-link {
+    display: block;
+    padding: 4px 12px;
+    font-size: 18px;
+
+    &.active {
+      font-weight: bold;
+    }
+  }
+}
